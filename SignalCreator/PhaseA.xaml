@@ -1,0 +1,59 @@
+﻿<Page x:Class="SignalCreator.PhaseA"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Single Pulse Generator"
+      Background="LightGray">
+
+    <Grid>
+        <Border Background="White"
+                BorderBrush="Black"
+                BorderThickness="1"
+                CornerRadius="10"
+                Padding="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="400">
+
+            <StackPanel>
+                <TextBlock Text="Single Pulse Generator"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,20"
+                           HorizontalAlignment="Center"
+                           FontFamily="Bahnschrift"/>
+
+                <!-- Amplitude Input -->
+                <StackPanel Orientation="Horizontal" Margin="0,5" VerticalAlignment="Center">
+                    <Label Width="140" VerticalAlignment="Center" FontSize="14" FontFamily="Bahnschrift">Amplitude (V):</Label>
+                    <TextBox Name="AmplitudeBox" Width="180" Text="2.0" FontSize="14" FontFamily="Bahnschrift"/>
+                </StackPanel>
+
+                <!-- Frequency Input -->
+                <StackPanel Orientation="Horizontal" Margin="0,5" VerticalAlignment="Center">
+                    <Label Width="140" VerticalAlignment="Center" FontSize="14" FontFamily="Bahnschrift">Frequency (Hz):</Label>
+                    <TextBox Name="FrequencyBox" Width="180" Text="10" FontSize="14" FontFamily="Bahnschrift"/>
+                </StackPanel>
+
+                <!-- Pulse Width Input -->
+                <StackPanel Orientation="Horizontal" Margin="0,5" VerticalAlignment="Center">
+                    <Label Width="140" VerticalAlignment="Center" FontSize="14" FontFamily="Bahnschrift">Pulse Width (%):</Label>
+                    <TextBox Name="PulseWidthBox" Width="180" Text="50" FontSize="14" FontFamily="Bahnschrift"/>
+                </StackPanel>
+
+                <!-- Send Button -->
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            Margin="0,20,0,0">
+                    <Button Content="Send"
+                            Width="120"
+                            Height="35"
+                            Background="DarkGray"
+                            BorderBrush="Black"
+                            FontFamily="Agency FB"
+                            FontSize="16"
+                            Click="Send_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

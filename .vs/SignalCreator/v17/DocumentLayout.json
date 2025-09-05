@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\turke\\source\\repos\\SignalCreator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|c:\\users\\turke\\source\\repos\\signalcreator\\signalcreator\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\connectarduinopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\connectarduinopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|c:\\users\\turke\\source\\repos\\signalcreator\\signalcreator\\connectarduinopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\connectarduinopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\sinuswavepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\sinuswavepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\sinuswavepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\sinuswavepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\phaseb.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\phaseb.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\phasea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\phasea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\phasea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\phasea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\phaseb.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\phaseb.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\turke\\AppData\\Local\\Temp\\.vsdbgsrc\\8e4cad3c6c70b32c985791e0a6f156aa458544165c1c7842a1e4fdbd087e495d\\NavigationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|C:\\Users\\turke\\source\\repos\\SignalCreator\\signalcreator\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{27E75E62-0958-4250-B94E-F8B1709F86F4}|SignalCreator\\SignalCreator.csproj|solutionrelative:signalcreator\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\App.xaml.cs",
+              "RelativeDocumentMoniker": "SignalCreator\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\App.xaml.cs",
+              "RelativeToolTip": "SignalCreator\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:29:43.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectArduinoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\ConnectArduinoPage.xaml.cs",
+              "RelativeDocumentMoniker": "SignalCreator\\ConnectArduinoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\ConnectArduinoPage.xaml.cs",
+              "RelativeToolTip": "SignalCreator\\ConnectArduinoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:29:38.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectArduinoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\ConnectArduinoPage.xaml",
+              "RelativeDocumentMoniker": "SignalCreator\\ConnectArduinoPage.xaml",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\ConnectArduinoPage.xaml",
+              "RelativeToolTip": "SignalCreator\\ConnectArduinoPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-24T07:55:54.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SignalCreator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\MainWindow.xaml",
+              "RelativeToolTip": "SignalCreator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T08:24:15.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SinusWavePage.xaml",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\SinusWavePage.xaml",
+              "RelativeDocumentMoniker": "SignalCreator\\SinusWavePage.xaml",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\SinusWavePage.xaml",
+              "RelativeToolTip": "SignalCreator\\SinusWavePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-05T07:51:46.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SignalCreator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SignalCreator\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:06:45.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\App.config",
+              "RelativeDocumentMoniker": "SignalCreator\\App.config",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\App.config",
+              "RelativeToolTip": "SignalCreator\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-05T13:01:26.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SinusWavePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\SinusWavePage.xaml.cs",
+              "RelativeDocumentMoniker": "SignalCreator\\SinusWavePage.xaml.cs",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\SinusWavePage.xaml.cs",
+              "RelativeToolTip": "SignalCreator\\SinusWavePage.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAACEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:16:39.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PhaseB.xaml",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseB.xaml",
+              "RelativeDocumentMoniker": "SignalCreator\\PhaseB.xaml",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseB.xaml",
+              "RelativeToolTip": "SignalCreator\\PhaseB.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T08:29:18.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhaseB.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseB.xaml.cs",
+              "RelativeDocumentMoniker": "SignalCreator\\PhaseB.xaml.cs",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseB.xaml.cs",
+              "RelativeToolTip": "SignalCreator\\PhaseB.xaml.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAmwEYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:33:48.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhaseA.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseA.xaml.cs",
+              "RelativeDocumentMoniker": "SignalCreator\\PhaseA.xaml.cs",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseA.xaml.cs",
+              "RelativeToolTip": "SignalCreator\\PhaseA.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:19:08.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\turke\\AppData\\Local\\Temp\\.vsdbgsrc\\8e4cad3c6c70b32c985791e0a6f156aa458544165c1c7842a1e4fdbd087e495d\\NavigationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\8e4cad3c6c70b32c985791e0a6f156aa458544165c1c7842a1e4fdbd087e495d\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\turke\\AppData\\Local\\Temp\\.vsdbgsrc\\8e4cad3c6c70b32c985791e0a6f156aa458544165c1c7842a1e4fdbd087e495d\\NavigationService.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\8e4cad3c6c70b32c985791e0a6f156aa458544165c1c7842a1e4fdbd087e495d\\NavigationService.cs",
+              "ViewState": "AgIAAGYEAAAAAAAAAAAMwG8EAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:17:44.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhaseA.xaml",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseA.xaml",
+              "RelativeDocumentMoniker": "SignalCreator\\PhaseA.xaml",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\PhaseA.xaml",
+              "RelativeToolTip": "SignalCreator\\PhaseA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T08:18:51.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\packages.config",
+              "RelativeDocumentMoniker": "SignalCreator\\packages.config",
+              "ToolTip": "C:\\Users\\turke\\source\\repos\\SignalCreator\\SignalCreator\\packages.config",
+              "RelativeToolTip": "SignalCreator\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-14T08:11:11.116Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

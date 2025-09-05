@@ -1,0 +1,27 @@
+﻿<Page x:Class="SignalCreator.ConnectArduinoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Connect Arduino">
+
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Select COM Port:" FontWeight="Bold" Margin="0,0,0,5" FontFamily="Bahnschrift"/>
+            <ComboBox x:Name="PortComboBox" Width="150" Margin="0,0,0,10" FontFamily="Bahnschrift"/>
+
+            <Button Content="Connect" Width="100" Click="Connect_Click" 
+                    Background="DarkGray" BorderBrush="Black" FontFamily="Agency FB" FontSize="14" />
+
+            <TextBox x:Name="StatusText" Margin="0,10,0,0" FontFamily="Bahnschrift" 
+                     TextWrapping="Wrap" Height="200" VerticalScrollBarVisibility="Auto"
+                     Background="#FF1E1E1E" Foreground="LightGreen" Padding="5"
+                     IsReadOnly="True" AcceptsReturn="True"/>
+
+            <!-- Warning section -->
+            <StackPanel Orientation="Horizontal" Margin="0,15,0,0" VerticalAlignment="Bottom">
+                <TextBlock Text="⚠" FontSize="16" Foreground="OrangeRed" Margin="0,-6,5,0"/>
+                <TextBlock Text="Can only be used with Arduino® Due." 
+                           FontFamily="Bahnschrift" Foreground="OrangeRed" FontWeight="Bold"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

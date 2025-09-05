@@ -1,0 +1,99 @@
+﻿<Page x:Class="SignalCreator.PhaseB"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:SignalCreator"
+      Title="Pulse Train Generator"
+      KeyDown="Page_KeyDown"
+      FocusManager.FocusedElement="{Binding ElementName=SharedFrequencyBox}"
+      Background="LightGray">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="1"
+                    BorderBrush="Black"
+                    BorderThickness="2"
+                    Background="White"
+                    Padding="20"
+                    Margin="20"
+                    CornerRadius="10"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top">
+
+                <StackPanel Width="600">
+
+                    <TextBlock Text="Enter Pulse Parameters"
+                               FontSize="20" FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,10"
+                               FontFamily="Bahnschrift"/>
+
+                    <!-- Shared Frequency & Invert Panel -->
+                    <StackPanel Orientation="Vertical" Margin="0,10" HorizontalAlignment="Center">
+                        <CheckBox x:Name="SameFreqCheck"
+                                  Content="Set pulse train frequency"
+                                  Checked="SameFreqCheck_Changed"
+                                  Unchecked="SameFreqCheck_Changed"
+                                  FontFamily="Bahnschrift"/>
+
+                        <CheckBox x:Name="InvertPulse"
+                                  Content="Invert Pulse"
+                                  Checked="InvertPulse_Checked"
+                                  Unchecked="InvertPulse_UnChecked"
+                                  FontFamily="Bahnschrift"/>
+
+                        <StackPanel x:Name="SharedFreqPanel" Orientation="Horizontal" Visibility="Collapsed" Margin="0,5" HorizontalAlignment="Center">
+                            <Label Content="Shared Frequency (Hz):" VerticalAlignment="Center" FontFamily="Bahnschrift"/>
+                            <TextBox x:Name="SharedFrequencyBox" Width="100" TextChanged="SharedFrequencyBox_TextChanged" FontFamily="Bahnschrift"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                            <Label Content="Select Number of Pulses:" VerticalAlignment="Center" FontFamily="Bahnschrift"/>
+                            <ComboBox x:Name="PulseCountSelector"
+                                      Width="60"
+                                      SelectionChanged="PulseCountSelector_SelectionChanged"
+                                      SelectedIndex="2">
+                                <ComboBoxItem Content="2"/>
+                                <ComboBoxItem Content="3"/>
+                                <ComboBoxItem Content="4"/>
+                                <ComboBoxItem Content="5"/>
+                                <ComboBoxItem Content="6"/>
+                                <ComboBoxItem Content="7"/>
+                                <ComboBoxItem Content="8"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Pulse Inputs -->
+                    <Grid x:Name="PulseInputsGrid" Margin="0,10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+
+                    <!-- Send Button -->
+                    <Button Width="120" Height="35" Content="Send" Click="Send_Click" HorizontalAlignment="Center" 
+                            Margin="0,20" Background="DarkGray" BorderBrush="Black" FontSize="14" FontFamily="Agency FB"/>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Page>

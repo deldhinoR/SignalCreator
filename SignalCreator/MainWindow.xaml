@@ -1,0 +1,48 @@
+﻿<Window x:Class="SignalCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SignalCreator" Height="500" Width="800">
+
+    <Window.Resources>
+        <!-- Green blinking animation storyboard -->
+        <Storyboard x:Key="BlinkGreen">
+            <ColorAnimation 
+                Storyboard.TargetName="StatusIndicatorFill" 
+                Storyboard.TargetProperty="Color"
+                From="Green" To="LightGreen" Duration="0:0:0.8" AutoReverse="True" RepeatBehavior="Forever"/>
+        </Storyboard>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button Content="Connect Arduino" Width="110" Margin="5" Click="ConnectArduino_Click" Background="DarkGray" BorderBrush="Black" FontFamily="Bahnschrift"/>
+            <Button Content="Single" Width="90" Margin="5" Click="PhaseA_Click" Background="DarkGray" BorderBrush="Black" FontFamily="Bahnschrift"/>
+            <Button Content="Train" Width="90" Margin="5" Click="PhaseB_Click" Background="DarkGray" BorderBrush="Black" FontFamily="Bahnschrift"/>
+            <Button Content="Sinus" Width="90" Margin="5" Click="SinusWaveWindow_Click" Background="DarkGray" BorderBrush="Black" FontFamily="Bahnschrift"/>
+
+            <!-- Add COM Port ComboBox -->
+            <ComboBox x:Name="ComPortComboBox" Width="100" Margin="5" FontFamily="Bahnschrift" />
+
+            <Button x:Name="SerialToggleButton" Content="Open Serial" Width="100" Margin="5" Click="SerialToggleButton_Click" Background="DarkGray" BorderBrush="Black" FontFamily="Bahnschrift"/>
+
+            <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Ellipse x:Name="StatusIndicator" Width="16" Height="16" Stroke="Black" StrokeThickness="1" Margin="0,0,5,0">
+                    <Ellipse.Fill>
+                        <SolidColorBrush x:Name="StatusIndicatorFill" Color="Red"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <TextBlock x:Name="StatusLabel" Text="Disconnected" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Bahnschrift"/>
+            </StackPanel>
+        </StackPanel>
+
+
+        <Frame x:Name="MainFrame"
+               Grid.Row="1"
+               NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
